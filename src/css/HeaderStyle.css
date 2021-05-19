@@ -1,0 +1,14 @@
+.HeaderStyle {
+  text-align: center;
+  background-color: blue;
+  color: #fff;
+  padding: 1%;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.SubHading{
+  margin:0;
+  font-size: 0.7rem;
+  font-weight: 400;
+}

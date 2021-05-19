@@ -1,0 +1,107 @@
+.loadingImg {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.loadingText {
+  display: inline-block;
+}
+
+.globaltext {
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.dataBox1 {
+  font-weight: 600;
+  font-size: 0.5rem;
+
+  width: 20%;
+  height: 20%;
+
+  margin: 0 auto;
+}
+
+.column h3 {
+  color: #1919db;
+  font-size: 1rem;
+  margin-bottom: 4%;
+}
+
+.fontBold {
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin: 3%;
+}
+
+.caseCount {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.margin-10 {
+  margin-bottom: 10px;
+}
+
+.country-dropdown {
+  width: 55%;
+  border-radius: 4px;
+}
+
+.clearCountry {
+  background-color: green;
+  color: #ffffff;
+  margin: 2%;
+  border-radius: 4px;
+}
+
+.boxes {
+  width: 50%;
+}
+
+.dataBox2 {
+  width: 50%;
+  float: left;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  background-color: #c9d7eb;
+  border-radius: 6px;
+  text-align: center;
+  margin: 2%;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 auto;
+  width: 100%;
+  margin-left: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 25%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
